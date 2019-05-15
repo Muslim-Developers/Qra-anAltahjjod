@@ -43,7 +43,10 @@ angular.module('starter.controllers', [])
 
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
-    { title: 'سورة الاسراء ', id: 17 }
+    { title: 'سورة البقرة ', id: 2 },
+    { title: 'سورة الاسراء ', id: 17 },
+    { title: 'سورة الكهف ', id: 18 },
+      { title: 'سورة مريم ', id: 19 },
      
   ];
 })

@@ -48,12 +48,36 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-
+ .state('app.2', {
+      url: '/2',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/2.html' 
+        }
+      }
+    })
     .state('app.17', {
       url: '/17',
       views: {
         'menuContent': {
           templateUrl: 'templates/17.html' 
+        }
+      }
+    })
+    
+    .state('app.18', {
+      url: '/18',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/18.html' 
+        }
+      }
+    })
+    .state('app.19', {
+      url: '/19',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/19.html' 
         }
       }
     })
