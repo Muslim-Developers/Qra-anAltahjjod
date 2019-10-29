@@ -44,11 +44,33 @@ angular.module('starter.controllers', [])
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
     { title: 'سورة البقرة ', id: 2 },
+    { title: 'سورة ال عمران ', id: 3 },
     { title: 'سورة الاسراء ', id: 17 },
     { title: 'سورة الكهف ', id: 18 },
-      { title: 'سورة مريم ', id: 19 },
+    { title: 'سورة مريم ', id: 19 },
+    { title: 'سوره طه ', id: 20 },
      
   ];
+})
+.controller('The17Ctrl', function($scope) {
+ 
+    $scope.b7d8f9= function (){
+        alert("hi from the first aya");
+    }
+    
+  
+})
+
+
+.controller('The3Ctrl', function($scope) {
+    
+    $scope.d0e4fc= function (){
+        alert("hi from the first context");
+    }
+    $scope.b4a4be= function (){
+        alert("hi from the second context");
+    }
+  
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {

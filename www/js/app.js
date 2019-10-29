@@ -36,9 +36,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     controller: 'AppCtrl'
   })
 
-  
 
-   
     .state('app.playlists', {
       url: '/playlists',
       views: {
@@ -56,11 +54,25 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+    
+     .state('app.3', {
+      url: '/3',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/3.html',
+          controller: 'The3Ctrl'
+          
+        }
+      }
+    })
+    
     .state('app.17', {
       url: '/17',
       views: {
         'menuContent': {
-          templateUrl: 'templates/17.html' 
+          templateUrl: 'templates/17.html',
+          controller: 'The17Ctrl'
+          
         }
       }
     })
@@ -78,6 +90,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent': {
           templateUrl: 'templates/19.html' 
+        }
+      }
+    })
+     .state('app.20', {
+      url: '/20',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/20.html' 
         }
       }
     })
