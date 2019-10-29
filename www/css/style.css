@@ -1,29 +1,29 @@
 /* Empty. Add your own CSS if you like */
-b{
-    color:black;
-    word-spacing: 15%;
-    line-height: 1.9;
-font-size: 14px;
-text-align:justify;
- text-justify: inter-word;
- float: right;
- padding: 10px;
- border-left: 2px solid #999;
-font-weight: normal;
-border-right: 2px solid #999;
- 
+b {
+  color: black;
+  word-spacing: 15%;
+  line-height: 3;
+  font-size: 14px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 10px;
+  font-weight: normal;
 }
-*{
-    font-family: 'Cairo', sans-serif;
+* {
+  font-family: "Cairo", sans-serif;
 }
 
-h2{
-    font-size: 30px;
-    margin-bottom: 0px;
+h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
 
-background: #000;
+  background: #000;
 
-color: #fff;
+  color: #fff;
 
-padding: 10px;
-}/* Empty. Add your own CSS if you like */
+  padding: 10px;
+} /* Empty. Add your own CSS if you like */
+
+ion-content {
+  text-align: justify;
+}
