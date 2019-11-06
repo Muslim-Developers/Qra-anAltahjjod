@@ -45,6 +45,7 @@ angular.module('starter.controllers', [])
   $scope.playlists = [
     { title: 'سورة البقرة ', id: 2 },
     { title: 'سورة ال عمران ', id: 3 },
+	 { title: 'سورة النــساء ', id: 4 },
     { title: 'سورة الاسراء ', id: 17 },
     { title: 'سورة الكهف ', id: 18 },
     { title: 'سورة مريم ', id: 19 },
