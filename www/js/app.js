@@ -71,7 +71,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent': {
           templateUrl: 'templates/4.html',
-          
+          controller: 'The4Ctrl'
         }
       }
     })
