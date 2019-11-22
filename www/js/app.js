@@ -60,8 +60,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent': {
           templateUrl: 'templates/3.html',
-          controller: 'The3Ctrl'
-          
+          controller: 'The3Ctrl',
+        }
+      }
+    })
+	
+	.state('app.modal', {
+      url: '/modal',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/modal.html',
+          controller: 'The3Ctrl',
         }
       }
     })

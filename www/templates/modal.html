@@ -1,0 +1,23 @@
+<ion-view view-title="">
+
+<ion-header-bar class="bar-stable">
+<a  class="button icon-left icon-chevron-left button-clear button-dark" ng-click="closeModal()">Back</a>
+<h1 class="title">{{note}}</h1>
+</ion-header-bar>
+  <ion-content>
+  <div class="card">
+	<div class="item item-text-wrap">
+		<div class="list">
+			<label>
+				<span class="input-label">ملاحظة</span>
+				<input type="text" placeholder="Write Your Notes" ng-modal="note"/>
+			</label>
+			<button class="button button-full button-positive" ng-click="addNesDesc(key,note)"> حفظ</button>
+		</div>
+	</div>
+  </div>
+  
+  <h1>{{key}}</h1>
+  <p>{{note}}</p>
+  </ion-content>
+</ion-view>

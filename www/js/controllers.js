@@ -62,10 +62,51 @@ angular.module('starter.controllers', [])
 })
 
 
-.controller('The3Ctrl', function($scope) {
-    
+.controller('The3Ctrl', function($scope, $ionicModal) {
+	
+	$scope.note = " ";
+	$scope.addNesDesc = function(key,data) {
+		
+		alert(key);
+		alert(data);
+		localStorage.setItem(key,data);
+		$scope.modal.hide();
+	};
+	
+	$ionicModal
+	.fromTemplateUrl('templates/modal.html',{
+		scope: $scope
+	})
+	.then( function (modal) {
+		$scope.modal = modal;
+	});
+	
+	$scope.openModal =function() {
+		$scope.modal.show();
+	};
+	
+	$scope.closeModal =function() {
+		$scope.modal.hide();
+	};
+	
+	//function open the modal
+	
     $scope.d0e4fc= function (){
-        alert("hi from the first context");
+		$scope.key = "d0e4fc";
+		$scope.note = localStorage.getItem("d0e4fc"); // take the data from local storage
+		$scope.openModal();
+    
+       /*alert("hi from the first context");*/
+    }
+
+/*
+
+.controller('The3Ctrl', function($scope) {
+	
+	
+    $scope.d0e4fc= function (){
+		
+       alert("hi from the first context");
     }
     $scope.b4a4be= function (){
         alert("hi from the second context");
@@ -180,6 +221,7 @@ angular.module('starter.controllers', [])
         alert("199-200 Ayat");
     }
 })
+*/
 
 .controller('The4Ctrl', function($scope) {
  
@@ -189,10 +231,6 @@ angular.module('starter.controllers', [])
 	
 	 $scope.e3c5c5= function (){
         alert("2-6 Ayat");
-    }
-	
-	 $scope.dca4a9= function (){
-        alert("7-10 Ayat");
     }
 	
 	 $scope.dca4a9= function (){
@@ -416,6 +454,8 @@ angular.module('starter.controllers', [])
         alert("146-147 Ayat");
     }
 })
+
+
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });
