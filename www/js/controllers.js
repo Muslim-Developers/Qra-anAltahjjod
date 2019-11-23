@@ -66,7 +66,6 @@ angular.module('starter.controllers', [])
 	
 	$scope.note = " ";
 	$scope.addNesDesc = function(key,data) {
-		
 		alert(key);
 		alert(data);
 		localStorage.setItem(key,data);
@@ -95,363 +94,547 @@ angular.module('starter.controllers', [])
 		$scope.key = "d0e4fc";
 		$scope.note = localStorage.getItem("d0e4fc"); // take the data from local storage
 		$scope.openModal();
-    
-       /*alert("hi from the first context");*/
-    }
-
-/*
-
-.controller('The3Ctrl', function($scope) {
+    };
 	
+	 $scope.b4a4be= function (){
+		 
+		$scope.key = "b4a4be";
+		$scope.note = localStorage.getItem("b4a4be"); 
+		$scope.openModal();
+    };
 	
-    $scope.d0e4fc= function (){
-		
-       alert("hi from the first context");
-    }
-    $scope.b4a4be= function (){
-        alert("hi from the second context");
-    }
-	
-	 $scope.fdf6da = function (){
-        alert("92-94 Ayat");
-    }
+	$scope.fdf6da = function (){
+		$scope.key = "fdf6da";
+		$scope.note = localStorage.getItem("fdf6da"); 
+		$scope.openModal();  
+    };
 	
 	$scope.dec7cb = function (){
-        alert("95-97 Ayat");
-    }
+		$scope.key = "dec7cb";
+		$scope.note = localStorage.getItem("dec7cb"); 
+		$scope.openModal();  
+    };
 	
 	$scope.e2d6e9 = function (){
-        alert("98-101 Ayat");
-    }
+		$scope.key = "e2d6e9";
+		$scope.note = localStorage.getItem("e2d6e9"); 
+		$scope.openModal();  
+    };
 	
 	$scope.b4cfae = function (){
-        alert("102-109 Ayat");
-    }
+		$scope.key = "b4cfae";
+		$scope.note = localStorage.getItem("b4cfae"); 
+		$scope.openModal();
+    };
 	
 	$scope.b9a4bc = function (){
-        alert("110-115 Ayat");
-    }
-	
+		$scope.key = "b9a4bc";
+		$scope.note = localStorage.getItem("b9a4bc"); 
+		$scope.openModal();
+    };
+
 	$scope.fbdbeb = function (){
-        alert("116-117 Ayat");
-    }
-	
+		$scope.key = "fbdbeb";
+		$scope.note = localStorage.getItem("fbdbeb"); 
+		$scope.openModal();
+    };
+		
 	$scope.cecad9 = function (){
-        alert("118-120 Ayat");
-    }
+		$scope.key = "cecad9";
+		$scope.note = localStorage.getItem("cecad9"); 
+		$scope.openModal();
+    };
 	
 	$scope.fff9c2 = function (){
-        alert("121-129 Ayat");
-    }
-	
+		$scope.key = "fff9c2";
+		$scope.note = localStorage.getItem("fff9c2"); 
+		$scope.openModal();
+    };
+
 	$scope.d29ea5 = function (){
-        alert("130-132 Ayat");
-    }
-	
+		$scope.key = "d29ea5";
+		$scope.note = localStorage.getItem("d29ea5"); 
+		$scope.openModal();
+    };
+
 	$scope.d3dfd1 = function (){
-        alert("133-136 Ayat");
-    }
-	
+		$scope.key = "d3dfd1";
+		$scope.note = localStorage.getItem("d3dfd1"); 
+		$scope.openModal();
+    };
 	$scope.d4cbdc = function (){
-        alert("137-144 Ayat");
-    }
+		$scope.key = "d4cbdc";
+		$scope.note = localStorage.getItem("d4cbdc"); 
+		$scope.openModal();
+    };
 	
 	$scope.bca5c1 = function (){
-        alert("145-148 Ayat");
-    }
+		$scope.key = "bca5c1";
+		$scope.note = localStorage.getItem("bca5c1"); 
+		$scope.openModal();
+    };
 	
 	$scope.c5b8ce = function (){
-        alert("149-151 Ayat");
-    }
+		$scope.key = "c5b8ce";
+		$scope.note = localStorage.getItem("c5b8ce"); 
+		$scope.openModal();
+    };
 	
 	$scope.fbf3cc = function (){
-        alert("152-155 Ayat");
-    }
-	
+		$scope.key = "fbf3cc";
+		$scope.note = localStorage.getItem("fbf3cc"); 
+		$scope.openModal();
+    };
+
 	$scope.b2a0b6 = function (){
-        alert("156-158 Ayat");
-    }
+		$scope.key = "b2a0b6";
+		$scope.note = localStorage.getItem("b2a0b6"); 
+		$scope.openModal();
+    };
 	
 	$scope.a7d1af = function (){
-        alert("159-160 Ayat");
+		$scope.key = "a7d1af";
+		$scope.note = localStorage.getItem("a7d1af"); 
+		$scope.openModal();
     }
 	
 	$scope.d0e6d9 = function (){
-        alert("161-163 Ayat");
+		$scope.key = "d0e6d9";
+		$scope.note = localStorage.getItem("d0e6d9"); 
+		$scope.openModal();
     }
 	
 	$scope.f9eeb8 = function (){
-        alert("164-165 Ayat");
+		$scope.key = "f9eeb8";
+		$scope.note = localStorage.getItem("f9eeb8"); 
+		$scope.openModal();
     }
 	
 	$scope.f7f2dc = function (){
-        alert("166-168 Ayat");
+		$scope.key = "f7f2dc";
+		$scope.note = localStorage.getItem("f7f2dc"); 
+		$scope.openModal();
+   
     }
-	
+
 	$scope.f4ebb1 = function (){
-        alert("169-175 Ayat");
+		$scope.key = "f4ebb1";
+		$scope.note = localStorage.getItem("f4ebb1"); 
+		$scope.openModal();
     }
 	
 	
 	$scope.b8d5bd = function (){
-        alert("176-180 Ayat");
+		$scope.key = "b8d5bd";
+		$scope.note = localStorage.getItem("b8d5bd"); 
+		$scope.openModal();
+        
     }
-	
+
 	$scope.cdc4d8 = function (){
-        alert("181-184 Ayat");
-    }
-	
+		$scope.key = "cdc4d8";
+		$scope.note = localStorage.getItem("cdc4d8"); 
+		$scope.openModal();
+    };
 	$scope.ffa88e = function (){
-        alert("185-186 Ayat");
+		$scope.key = "ffa88e";
+		$scope.note = localStorage.getItem("ffa88e"); 
+		$scope.openModal();
     }
 	
 	$scope.fff7da = function (){
-        alert("187-189 Ayat");
+		$scope.key = "fff7da";
+		$scope.note = localStorage.getItem("fff7da"); 
+		$scope.openModal();
     }
 	
 	$scope.d5e4df = function (){
-        alert("190-195 Ayat");
+		$scope.key = "d5e4df";
+		$scope.note = localStorage.getItem("d5e4df"); 
+		$scope.openModal();
     }
 	
 	$scope.b5a2be = function (){
-        alert("196-198 Ayat");
+		$scope.key = "b5a2be";
+		$scope.note = localStorage.getItem("b5a2be"); 
+		$scope.openModal();
+       
     }
 	
 	$scope.fdeeab = function (){
-        alert("199-200 Ayat");
+		$scope.key = "fdeeab";
+		$scope.note = localStorage.getItem("fdeeab"); 
+		$scope.openModal();
+       
     }
 })
-*/
 
-.controller('The4Ctrl', function($scope) {
- 
-    $scope.d1c3d7= function (){
-        alert("Aya 1");
-    }
+.controller('The4Ctrl', function($scope, $ionicModal) {
+	
+	$scope.note = " ";
+	$scope.addNesDesc = function(key,data) {
+		alert(key);
+		alert(data);
+		localStorage.setItem(key,data);
+		$scope.modal.hide();
+	};
+	
+	$ionicModal
+	.fromTemplateUrl('templates/modal.html',{
+		scope: $scope
+	})
+	.then( function (modal) {
+		$scope.modal = modal;
+	});
+	
+	$scope.openModal =function() {
+		$scope.modal.show();
+	};
+	
+	$scope.closeModal =function() {
+		$scope.modal.hide();
+	};
+	
+	//function open the modal
+	
+	$scope.d1c3d7 = function (){
+		$scope.key = "d1c3d7";
+		$scope.note = localStorage.getItem("d1c3d7"); 
+		$scope.openModal(); 
+    };
+
 	
 	 $scope.e3c5c5= function (){
-        alert("2-6 Ayat");
+       $scope.key = "e3c5c5";
+		$scope.note = localStorage.getItem("e3c5c5"); 
+		$scope.openModal(); 
     }
 	
 	 $scope.dca4a9= function (){
-        alert("7-10 Ayat");
+        $scope.key = "dca4a9";
+		$scope.note = localStorage.getItem("dca4a9"); 
+		$scope.openModal();
     }
 	
 	$scope.dfc1c3= function (){
-        alert("11-12 Ayat");
+        $scope.key = "dfc1c3";
+		$scope.note = localStorage.getItem("dfc1c3"); 
+		$scope.openModal();
     }
 	
 	$scope.b3a0bc= function (){
-        alert("13-14 Ayat");
+       $scope.key = "b3a0bc";
+		$scope.note = localStorage.getItem("b3a0bc"); 
+		$scope.openModal();
     }
 	
 	$scope.d8a6a9= function (){
-        alert("15-16 Ayat");
+       $scope.key = "d8a6a9";
+		$scope.note = localStorage.getItem("d8a6a9"); 
+		$scope.openModal();
     }
 	
 	$scope.cbbfd5= function (){
-        alert("17-18 Ayat");
+        $scope.key = "cbbfd5";
+		$scope.note = localStorage.getItem("cbbfd5"); 
+		$scope.openModal();
     }
 	
 	$scope.e1c5c4= function (){
-        alert("19-21 Ayat");
+        $scope.key = "e1c5c4";
+		$scope.note = localStorage.getItem("e1c5c4"); 
+		$scope.openModal();
     }
 	
 	$scope.db9fa1= function (){
-        alert("22-24 Ayat");
+		$scope.key = "db9fa1";
+		$scope.note = localStorage.getItem("db9fa1"); 
+		$scope.openModal();
     }
 	
 	$scope.e6cac9= function (){
-        alert("Aya 25");
+	   $scope.key = "e6cac9";
+		$scope.note = localStorage.getItem("e6cac9"); 
+		$scope.openModal();
     }
 	
 	$scope.c6aec9= function (){
-        alert("26-28 Ayat");
+        $scope.key = "c6aec9";
+		$scope.note = localStorage.getItem("c6aec9"); 
+		$scope.openModal();
     }
 	
 	$scope.dab0b7= function (){
-        alert("29-30 Ayat");
+        $scope.key = "dab0b7";
+		$scope.note = localStorage.getItem("dab0b7"); 
+		$scope.openModal();
     }
 	
 	$scope.dacee2= function (){
-        alert("Aya 31");
+        $scope.key = "dacee2";
+		$scope.note = localStorage.getItem("dacee2"); 
+		$scope.openModal();
     }
 	
 	$scope.bdadca= function (){
-        alert("32-33 Ayat");
+        $scope.key = "bdadca";
+		$scope.note = localStorage.getItem("bdadca"); 
+		$scope.openModal();
     }
 	
 	$scope.e3cdcd= function (){
-        alert("34-35 Ayat");
+        $scope.key = "e3cdcd";
+		$scope.note = localStorage.getItem("e3cdcd"); 
+		$scope.openModal();
     }
 	
 	$scope.ddeefd= function (){
-        alert("36-40 Ayat");
+        $scope.key = "ddeefd";
+		$scope.note = localStorage.getItem("ddeefd"); 
+		$scope.openModal();
     }
 	
-	$scope.ddeefd= function (){
-        alert("36-40 Ayat");
-    }
+	
 	
 	$scope.f5b599= function (){
-        alert("41-42 Ayat");
+        $scope.key = "f5b599";
+		$scope.note = localStorage.getItem("f5b599"); 
+		$scope.openModal();
     }
 	
 	$scope.cc9fa2= function (){
-        alert("Aya 43");
+        $scope.key = "cc9fa2";
+		$scope.note = localStorage.getItem("cc9fa2"); 
+		$scope.openModal();
     }
 	
 	$scope.f5e4b8= function (){
-        alert("44-46 Ayat");
+        $scope.key = "f5e4b8";
+		$scope.note = localStorage.getItem("f5e4b8"); 
+		$scope.openModal();
     }
 	
 	$scope.fff8de= function (){
-        alert("47-48 Ayat");
+        $scope.key = "fff8de";
+		$scope.note = localStorage.getItem("fff8de"); 
+		$scope.openModal();
     }
 	
 	$scope.fbedbc= function (){
-        alert("49-50 Ayat");
+        $scope.key = "fbedbc";
+		$scope.note = localStorage.getItem("fbedbc"); 
+		$scope.openModal();
     }
 	
 	$scope.f8f0db= function (){
-        alert("51-55 Ayat");
+       $scope.key = "f8f0db";
+		$scope.note = localStorage.getItem("f8f0db"); 
+		$scope.openModal();
     }
 	
 	$scope.f6cadb= function (){
-        alert("56-57 Ayat");
+        $scope.key = "f6cadb";
+		$scope.note = localStorage.getItem("f6cadb"); 
+		$scope.openModal();
     }
 	
 	
 	$scope.b2a1bc= function (){
-        alert("58-59 Ayat");
+        $scope.key = "b2a1bc";
+		$scope.note = localStorage.getItem("b2a1bc"); 
+		$scope.openModal();
     }
 	
 	$scope.f8eab9= function (){
-        alert("60-63 Ayat");
+        $scope.key = "f8eab9";
+		$scope.note = localStorage.getItem("f8eab9"); 
+		$scope.openModal();
     }
 	
 	$scope.d3c8e9= function (){
-        alert("61-65 Ayat");
+        $scope.key = "d3c8e9";
+		$scope.note = localStorage.getItem("d3c8e9"); 
+		$scope.openModal();
     }
 	
 	$scope.d3eada= function (){
-        alert("66-70 Ayat");
+        $scope.key = "d3eada";
+		$scope.note = localStorage.getItem("d3eada"); 
+		$scope.openModal();
     }
 	
 	$scope.baa1be= function (){
-        alert("71-73 Ayat");
+       $scope.key = "baa1be";
+		$scope.note = localStorage.getItem("baa1be"); 
+		$scope.openModal();
     }
 	
 	$scope.d0cbe1= function (){
-        alert("74-76 Ayat");
+        $scope.key = "d0cbe1";
+		$scope.note = localStorage.getItem("d0cbe1"); 
+		$scope.openModal();
     }
 	
 	$scope.fefbe8= function (){
-        alert("75-79 Ayat");
+        $scope.key = "fefbe8";
+		$scope.note = localStorage.getItem("fefbe8"); 
+		$scope.openModal();
     }
 	
 	$scope.fef0c3= function (){
-        alert("80-84 Ayat");
+        $scope.key = "fef0c3";
+		$scope.note = localStorage.getItem("fef0c3"); 
+		$scope.openModal();
     }
 	
 	$scope.c99ba5= function (){
-        alert("85-87 Ayat");
+        $scope.key = "c99ba5";
+		$scope.note = localStorage.getItem("c99ba5"); 
+		$scope.openModal();
     }
 	
 	$scope.b9aabf= function (){
-        alert("88-89 Ayat");
+        $scope.key = "b9aabf";
+		$scope.note = localStorage.getItem("b9aabf"); 
+		$scope.openModal();
     }
 	
 	$scope.dbcad2= function (){
-        alert("90-91 Ayat");
+        $scope.key = "dbcad2";
+		$scope.note = localStorage.getItem("dbcad2"); 
+		$scope.openModal();
     }
 	
 	$scope.dbafae= function (){
-        alert("92-93 Ayat");
+       $scope.key = "dbafae";
+		$scope.note = localStorage.getItem("dbafae"); 
+		$scope.openModal();
     }
 	
 	$scope.cec9df= function (){
-        alert("Aya 94");
+        $scope.key = "cec9df";
+		$scope.note = localStorage.getItem("cec9df"); 
+		$scope.openModal();
     }
 	
 	$scope.b3ccb7= function (){
-        alert("95-96 Ayat");
+        $scope.key = "b3ccb7";
+		$scope.note = localStorage.getItem("b3ccb7"); 
+		$scope.openModal();
     }
 	
 	$scope.fdf9de= function (){
-        alert("97-100 Ayat");
+        $scope.key = "fdf9de";
+		$scope.note = localStorage.getItem("fdf9de"); 
+		$scope.openModal();
     }
 	
 	$scope.e0c8c8= function (){
-        alert("101-103 Ayat");
+        $scope.key = "e0c8c8";
+		$scope.note = localStorage.getItem("e0c8c8"); 
+		$scope.openModal();
     }
 	
 	$scope.fcefbb= function (){
-        alert("Aya 104");
+        $scope.key = "fcefbb";
+		$scope.note = localStorage.getItem("fcefbb"); 
+		$scope.openModal();
     }
 	
 	$scope.b29ab3= function (){
-        alert("Aya 105");
+        $scope.key = "b29ab3";
+		$scope.note = localStorage.getItem("b29ab3"); 
+		$scope.openModal();
     }
 	
 	$scope.f4edd2= function (){
-        alert("106-109 Ayat");
+        $scope.key = "f4edd2";
+		$scope.note = localStorage.getItem("f4edd2"); 
+		$scope.openModal();
     }
 	
 	$scope.d3c7df= function (){
-        alert("110-112 Ayat");
+        $scope.key = "d3c7df";
+		$scope.note = localStorage.getItem("d3c7df"); 
+		$scope.openModal();
     }
 	
 	$scope.c1d9f5= function (){
-        alert("Aya 113 ");
+       $scope.key = "c1d9f5";
+		$scope.note = localStorage.getItem("c1d9f5"); 
+		$scope.openModal();
     }
 	
 	$scope.feefbd= function (){
-        alert("114-115 Ayat");
+        $scope.key = "feefbd";
+		$scope.note = localStorage.getItem("feefbd"); 
+		$scope.openModal();
     }
 	
 	$scope.f0b0cb= function (){
-        alert("Aya 116");
+        $scope.key = "f0b0cb";
+		$scope.note = localStorage.getItem("f0b0cb"); 
+		$scope.openModal();
     }
 	
 	$scope.bba4c2= function (){
-        alert("117-121 Ayat");
+        $scope.key = "bba4c2";
+		$scope.note = localStorage.getItem("bba4c2"); 
+		$scope.openModal();
     }
 	
 	$scope.dde8e2= function (){
-        alert("122-126 Ayat");
+       $scope.key = "dde8e2";
+		$scope.note = localStorage.getItem("dde8e2"); 
+		$scope.openModal();
     }
 	
 	$scope.d6a1a7= function (){
-        alert("Aya 127");
+        $scope.key = "d6a1a7";
+		$scope.note = localStorage.getItem("d6a1a7"); 
+		$scope.openModal();
     }
 	
 	$scope.e2c6c8= function (){
-        alert("128-130 Ayat");
+       $scope.key = "e2c6c8";
+		$scope.note = localStorage.getItem("e2c6c8"); 
+		$scope.openModal();
     }
 	
 	$scope.e1f3fd= function (){
-        alert("131-134 Ayat");
+        $scope.key = "e1f3fd";
+		$scope.note = localStorage.getItem("e1f3fd"); 
+		$scope.openModal();
     }
 	
 	$scope.baaac4= function (){
-        alert("135-136 Ayat");
+       $scope.key = "baaac4";
+		$scope.note = localStorage.getItem("baaac4"); 
+		$scope.openModal();
     }
 	
 	$scope.fed5e3= function (){
-        alert("137-139 Ayat");
+        $scope.key = "fed5e3";
+		$scope.note = localStorage.getItem("fed5e3"); 
+		$scope.openModal();
     }
 	
 	$scope.fdf2d6= function (){
-        alert("140-143 Ayat");
+        $scope.key = "fdf2d6";
+		$scope.note = localStorage.getItem("fdf2d6"); 
+		$scope.openModal();
     }
 	
 	$scope.ebadc4= function (){
-        alert("144-145 Ayat");
+        $scope.key = "ebadc4";
+		$scope.note = localStorage.getItem("ebadc4"); 
+		$scope.openModal();
     }
 	
 	$scope.d4c9da= function (){
-        alert("146-147 Ayat");
+        $scope.key = "d4c9da";
+		$scope.note = localStorage.getItem("d4c9da"); 
+		$scope.openModal();
     }
 })
 
