@@ -47,6 +47,7 @@ angular.module('starter.controllers', [])
     { title: 'سورة ال عمران ', id: 3 },
 	{ title: 'سورة النــساء ', id: 4 },
 	{ title: 'سورة المائــدة ', id: 5 },
+	{ title: 'سورة الأنعــام ', id: 6 },
     { title: 'سورة الاسراء ', id: 17 },
     { title: 'سورة الكهف ', id: 18 },
     { title: 'سورة مريم ', id: 19 },
@@ -937,11 +938,200 @@ angular.module('starter.controllers', [])
 		$scope.key = "fff0b9";
 		$scope.note = localStorage.getItem("f9f0d3"); 
 		$scope.openModal(); 
-	};
-
-	
+	};	
 })
 
+
+.controller('The6Ctrl', function($scope, $ionicModal) {
+	
+	$scope.note = " ";
+	$scope.addNesDesc = function(key,data) {
+		alert(key);
+		alert(data);
+		localStorage.setItem(key,data);
+		$scope.modal.hide();
+	};
+	
+	$ionicModal
+	.fromTemplateUrl('templates/modal.html',{
+		scope: $scope
+	})
+	.then( function (modal) {
+		$scope.modal = modal;
+	});
+	
+	$scope.openModal =function() {
+		$scope.modal.show();
+	};
+	
+	$scope.closeModal =function() {
+		$scope.modal.hide();
+	};
+	
+	//function open the modal
+	
+	$scope.bed9f6 = function (){
+		$scope.key = "bed9f6";
+		$scope.note = localStorage.getItem("bed9f6"); 
+		$scope.openModal(); 
+	};
+
+	$scope.faf3d6 = function (){
+		$scope.key = "faf3d6";
+		$scope.note = localStorage.getItem("faf3d6"); 
+		$scope.openModal(); 
+	};
+
+	$scope.aa9ab4 = function (){
+		$scope.key = "aa9ab4";
+		$scope.note = localStorage.getItem("aa9ab4"); 
+		$scope.openModal(); 
+	};
+
+	$scope.d5e6f8 = function (){
+		$scope.key = "d5e6f8";
+		$scope.note = localStorage.getItem("d5e6f8"); 
+		$scope.openModal(); 
+	};
+
+	$scope.c5c1d3 = function (){
+		$scope.key = "c5c1d3";
+		$scope.note = localStorage.getItem("c5c1d3"); 
+		$scope.openModal(); 
+	};
+
+	$scope.f4a578 = function (){
+		$scope.key = "f4a578";
+		$scope.note = localStorage.getItem("f4a578"); 
+		$scope.openModal(); 
+	};
+
+	$scope.e6a2bb = function (){
+		$scope.key = "e6a2bb";
+		$scope.note = localStorage.getItem("e6a2bb"); 
+		$scope.openModal(); 
+	};
+
+	$scope.fdeeb2 = function (){
+		$scope.key = "fdeeb2";
+		$scope.note = localStorage.getItem("fdeeb2"); 
+		$scope.openModal(); 
+	};
+
+	$scope.b1a4b5 = function (){
+		$scope.key = "b1a4b5";
+		$scope.note = localStorage.getItem("b1a4b5"); 
+		$scope.openModal(); 
+	};
+
+	$scope.d4c8e0 = function (){
+		$scope.key = "d4c8e0";
+		$scope.note = localStorage.getItem("d4c8e0"); 
+		$scope.openModal(); 
+	};
+
+	$scope.a593a9 = function (){
+		$scope.key = "a593a9";
+		$scope.note = localStorage.getItem("a593a9"); 
+		$scope.openModal(); 
+	};
+
+	$scope.fdf5d1 = function (){
+		$scope.key = "fdf5d1";
+		$scope.note = localStorage.getItem("fdf5d1"); 
+		$scope.openModal(); 
+	};
+
+	$scope.fbeeb8 = function (){
+		$scope.key = "fbeeb8";
+		$scope.note = localStorage.getItem("fbeeb8"); 
+		$scope.openModal(); 
+	};
+
+	$scope.bcd3f2 = function (){
+		$scope.key = "bcd3f2";
+		$scope.note = localStorage.getItem("bcd3f2"); 
+		$scope.openModal(); 
+	};
+
+	$scope.d7e3fb = function (){
+		$scope.key = "d7e3fb";
+		$scope.note = localStorage.getItem("d7e3fb"); 
+		$scope.openModal(); 
+	};
+
+	$scope.cec6dd = function (){
+		$scope.key = "cec6dd";
+		$scope.note = localStorage.getItem("cec6dd"); 
+		$scope.openModal(); 
+	};
+
+	$scope.fef6d2 = function (){
+		$scope.key = "fef6d2";
+		$scope.note = localStorage.getItem("fef6d2"); 
+		$scope.openModal(); 
+	};
+
+	$scope.a4a0b7 = function (){
+		$scope.key = "a4a0b7";
+		$scope.note = localStorage.getItem("a4a0b7"); 
+		$scope.openModal(); 
+	};
+
+	$scope.fdeeb6 = function (){
+		$scope.key = "fdeeb6";
+		$scope.note = localStorage.getItem("fdeeb6"); 
+		$scope.openModal(); 
+	};
+
+	$scope.d1cde7 = function (){
+		$scope.key = "d1cde7";
+		$scope.note = localStorage.getItem("d1cde7"); 
+		$scope.openModal(); 
+	};
+
+	$scope.fbf0d0 = function (){
+		$scope.key = "fbf0d0";
+		$scope.note = localStorage.getItem("fbf0d0"); 
+		$scope.openModal(); 
+	};
+
+	$scope.a793ac = function (){
+		$scope.key = "a793ac";
+		$scope.note = localStorage.getItem("a793ac"); 
+		$scope.openModal(); 
+	};
+
+	$scope.f7c19f = function (){
+		$scope.key = "f7c19f";
+		$scope.note = localStorage.getItem("f7c19f"); 
+		$scope.openModal(); 
+	};
+
+	$scope.b1cff1 = function (){
+		$scope.key = "b1cff1";
+		$scope.note = localStorage.getItem("b1cff1"); 
+		$scope.openModal(); 
+	};
+
+	$scope.d7eafb = function (){
+		$scope.key = "d7eafb";
+		$scope.note = localStorage.getItem("d7eafb"); 
+		$scope.openModal(); 
+	};
+
+	$scope.cec8e5 = function (){
+		$scope.key = "cec8e5";
+		$scope.note = localStorage.getItem("cec8e5"); 
+		$scope.openModal(); 
+	};
+
+	$scope.fdf1a9 = function (){
+		$scope.key = "fdf1a9";
+		$scope.note = localStorage.getItem("fdf1a9"); 
+		$scope.openModal(); 
+	};	
+})
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });
