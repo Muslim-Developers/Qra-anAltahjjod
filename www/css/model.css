@@ -1,0 +1,63 @@
+
+	ion-content .card .item  .list span#_label-0 {
+        font-size: 32px;
+        color: #414042;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        width: 100%
+    }
+    
+    
+        ion-content .card .item  .list span#_label-0:before {
+        content: "";
+        display: inline-block;
+        border: 1px solid #414042;
+        width: 15px;
+        background: #414042;
+        height: 15px;
+        margin-left: 2%;
+        border-radius: 0 10px 10px 0;
+    }
+    
+    ion-content .card .item  .list span#_label-0:after {
+        content: "";
+        display: inline-block;
+        border: 1px solid #414042;
+        width: 15px;
+        background: #414042;
+        height: 15px;
+        margin-right: 2%;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    ion-content .card .item  .list  .ng-pristine {
+        display: block;
+        width: 100%;
+        border: 2px solid #414042;
+        padding: 3% 2%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    
+    ion-content .card .item  .list .button {
+        background: #414042;
+        padding: 1% ;
+        color:#fcfcfc;
+        max-width: 35%;
+        margin: auto;
+        font-size: 24px;
+        border-radius: 10px;
+    }
+    
+    ion-content .card .item  .list .button:hover {
+        
+        background: none;
+        color: #414042;
+        box-shadow: 5px 5px 8px #414042;
+    }
+    
+    ion-content h1{
+        display: none;
+    
+    }

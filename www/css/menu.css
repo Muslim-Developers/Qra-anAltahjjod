@@ -1,0 +1,23 @@
+.bar-stable .button.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #ddd;
+    font-size: 17px;
+    }
+
+    .bar.bar-stable {
+    border-color: #b2b2b2;
+    background-color: #f8f8f8;
+    background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);
+    color: #ddd;
+    background: #404040;
+    }
+
+    .bar.bar-stable .title {
+    color: #ddd;
+}
+
+a.item-content.ng-binding:hover {
+    background: #ddd;
+}
