@@ -9,6 +9,7 @@ b {
   padding: 10px;
   font-weight: normal;
 }
+
 * {
   font-family: "Cairo", sans-serif;
 }
@@ -26,4 +27,12 @@ h2 {
 
 ion-content {
   text-align: justify;
+  direction: rtl;
+}
+
+
+
+ion-content h1,
+ion-content p{
+  margin-right: 1%
 }

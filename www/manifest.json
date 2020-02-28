@@ -3,9 +3,16 @@
   "short_name": "My Ionic App",
   "start_url": "index.html",
   "display": "standalone",
-  "icons": [{
-    "src": "icon.png",
+  "icons": [
+    {
+    "src": "www/img/icon.png",
     "sizes": "512x512",
     "type": "image/png"
-  }]
+  }
+],
+"theme_color": "#ffee00",
+"background_color": "#ffee00"
 }
+
+
+

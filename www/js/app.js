@@ -60,8 +60,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent': {
           templateUrl: 'templates/3.html',
-          controller: 'The3Ctrl'
-          
+          controller: 'The3Ctrl',
+        }
+      }
+    })
+	
+	.state('app.modal', {
+      url: '/modal',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/modal.html',
+          controller: 'The3Ctrl',
         }
       }
     })
@@ -75,6 +84,27 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+
+    .state('app.5', {
+      url: '/5',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/5.html',
+          controller: 'The5Ctrl' 
+        }
+      }
+    })
+
+    .state('app.6', {
+      url: '/6',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/6.html',
+          controller: 'The6Ctrl' 
+        }
+      }
+    })
+    
     
     .state('app.17', {
       url: '/17',
