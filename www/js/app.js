@@ -7,8 +7,8 @@
 angular
   .module("starter", ["ionic", "starter.controllers"])
 
-  .run(function($ionicPlatform) {
-    $ionicPlatform.ready(function() {
+  .run(function ($ionicPlatform) {
+    $ionicPlatform.ready(function () {
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
       // for form inputs).
       // The reason we default this to hidden is that native apps don't usually show an accessory bar, at
@@ -27,14 +27,14 @@ angular
     });
   })
 
-  .config(function($stateProvider, $urlRouterProvider) {
+  .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
 
       .state("app", {
         url: "/app",
         abstract: true,
         templateUrl: "templates/menu.html",
-        controller: "AppCtrl"
+        controller: "AppCtrl",
       })
 
       .state("app.playlists", {
@@ -42,17 +42,17 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/playlists.html",
-            controller: "PlaylistsCtrl"
-          }
-        }
+            controller: "PlaylistsCtrl",
+          },
+        },
       })
       .state("app.2", {
         url: "/2",
         views: {
           menuContent: {
-            templateUrl: "templates/2.html"
-          }
-        }
+            templateUrl: "templates/2.html",
+          },
+        },
       })
 
       .state("app.3", {
@@ -60,9 +60,9 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/3.html",
-            controller: "The3Ctrl"
-          }
-        }
+            controller: "The3Ctrl",
+          },
+        },
       })
 
       .state("app.modal", {
@@ -70,9 +70,9 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/modal.html",
-            controller: "The3Ctrl"
-          }
-        }
+            controller: "The3Ctrl",
+          },
+        },
       })
 
       .state("app.4", {
@@ -80,9 +80,9 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/4.html",
-            controller: "The4Ctrl"
-          }
-        }
+            controller: "The4Ctrl",
+          },
+        },
       })
 
       .state("app.5", {
@@ -90,9 +90,9 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/5.html",
-            controller: "The5Ctrl"
-          }
-        }
+            controller: "The5Ctrl",
+          },
+        },
       })
 
       .state("app.6", {
@@ -100,9 +100,18 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/6.html",
-            controller: "The6Ctrl"
-          }
-        }
+            controller: "The6Ctrl",
+          },
+        },
+      })
+      .state("app.11", {
+        url: "/11",
+        views: {
+          menuContent: {
+            templateUrl: "templates/11.html",
+            controller: "The11Ctrl",
+          },
+        },
       })
 
       .state("app.17", {
@@ -110,34 +119,34 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/17.html",
-            controller: "The17Ctrl"
-          }
-        }
+            controller: "The17Ctrl",
+          },
+        },
       })
 
       .state("app.18", {
         url: "/18",
         views: {
           menuContent: {
-            templateUrl: "templates/18.html"
-          }
-        }
+            templateUrl: "templates/18.html",
+          },
+        },
       })
       .state("app.19", {
         url: "/19",
         views: {
           menuContent: {
-            templateUrl: "templates/19.html"
-          }
-        }
+            templateUrl: "templates/19.html",
+          },
+        },
       })
       .state("app.20", {
         url: "/20",
         views: {
           menuContent: {
-            templateUrl: "templates/20.html"
-          }
-        }
+            templateUrl: "templates/20.html",
+          },
+        },
       });
     $urlRouterProvider.otherwise("/app/playlists");
   });
