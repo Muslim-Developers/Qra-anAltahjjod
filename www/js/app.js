@@ -148,6 +148,25 @@ angular
           },
         },
       })
+
+      .state("app.21", {
+        url: "/21",
+        views: {
+          menuContent: {
+            templateUrl: "templates/21.html",
+          },
+        },
+      })
+
+      .state("app.22", {
+        url: "/22",
+        views: {
+          menuContent: {
+            templateUrl: "templates/22.html",
+          },
+        },
+      })
+
       .state("app.23", {
         url: "/23",
         views: {
