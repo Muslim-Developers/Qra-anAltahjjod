@@ -175,5 +175,85 @@ angular
             },
         },
     });
+      .state("app.8", {
+        url: "/8",
+        views: {
+          menuContent: {
+            templateUrl: "templates/8.html",
+          },
+        },
+      })
+      
+      .state("app.9", {
+        url: "/9",
+        views: {
+          menuContent: {
+            templateUrl: "templates/9.html",
+          },
+        },
+      })
+      
+      .state("app.10", {
+        url: "/10",
+        views: {
+          menuContent: {
+            templateUrl: "templates/10.html",
+          },
+        },
+      })
+      
+      .state("app.11", {
+        url: "/11",
+        views: {
+          menuContent: {
+            templateUrl: "templates/11.html",
+          },
+        },
+      })
+      
+      .state("app.12", {
+        url: "/12",
+        views: {
+          menuContent: {
+            templateUrl: "templates/12.html",
+          },
+        },
+      })
+      
+      .state("app.13", {
+        url: "/13",
+        views: {
+          menuContent: {
+            templateUrl: "templates/13.html",
+          },
+        },
+      })
+      
+      .state("app.14", {
+        url: "/14",
+        views: {
+          menuContent: {
+            templateUrl: "templates/14.html",
+          },
+        },
+      })
+      
+      .state("app.15", {
+        url: "/15",
+        views: {
+          menuContent: {
+            templateUrl: "templates/15.html",
+          },
+        },
+      })
+      
+      .state("app.16", {
+        url: "/16",
+        views: {
+          menuContent: {
+            templateUrl: "templates/16.html",
+          },
+        },
+      })
     $urlRouterProvider.otherwise("/app/playlists");
 });
