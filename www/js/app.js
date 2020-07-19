@@ -174,6 +174,60 @@ angular
                 templateUrl: "templates/23.html",
             },
         },
-    });
+    })
+    
+    .state("app.24", {
+        url: "/24",
+        views: {
+            menuContent: {
+                templateUrl: "templates/24.html",
+          },
+        },
+      })
+
+      .state("app.25", {
+        url: "/25",
+        views: {
+            menuContent: {
+                templateUrl: "templates/25.html",
+          },
+        },
+      })
+
+      .state("app.26", {
+        url: "/26",
+        views: {
+            menuContent: {
+                templateUrl: "templates/26.html",
+          },
+        },
+      })
+
+      .state("app.27", {
+        url: "/27",
+        views: {
+            menuContent: {
+                templateUrl: "templates/27.html",
+          },
+        },
+      })
+
+      .state("app.28", {
+        url: "/28",
+        views: {
+            menuContent: {
+                templateUrl: "templates/28.html",
+          },
+        },
+      })
+      
+      .state("app.29", {
+        url: "/29",
+        views: {
+            menuContent: {
+                templateUrl: "templates/29.html",
+          },
+        },
+      });
     $urlRouterProvider.otherwise("/app/playlists");
 });
