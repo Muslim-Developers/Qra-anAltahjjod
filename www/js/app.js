@@ -228,6 +228,42 @@ angular
                 templateUrl: "templates/29.html",
           },
         },
+      })
+
+      .state("app.30", {
+        url: "/30",
+        views: {
+            menuContent: {
+                templateUrl: "templates/30.html",
+          },
+        },
+      })
+
+      .state("app.31", {
+        url: "/31",
+        views: {
+            menuContent: {
+                templateUrl: "templates/31.html",
+          },
+        },
+      })
+
+      .state("app.32", {
+        url: "/32",
+        views: {
+            menuContent: {
+                templateUrl: "templates/32.html",
+          },
+        },
+      })
+
+      .state("app.33", {
+        url: "/33",
+        views: {
+            menuContent: {
+                templateUrl: "templates/33.html",
+          },
+        },
       });
     $urlRouterProvider.otherwise("/app/playlists");
 });
