@@ -500,6 +500,14 @@ angular
             templateUrl: "templates/74.html",
           },
         },
+      })
+      .state("app.75", {
+        url: "/75",
+        views: {
+          menuContent: {
+            templateUrl: "templates/75.html",
+          },
+        },
       });
     $urlRouterProvider.otherwise("/app/playlists");
   });
