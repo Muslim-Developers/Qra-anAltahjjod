@@ -266,11 +266,13 @@ angular
 
 .controller("PlaylistsCtrl", function($scope) {
     $scope.playlists = [
+		{ title: "سورة الفاتحة ", id: 1 },
         { title: "سورة البقرة ", id: 2 },
         { title: "سورة ال عمران ", id: 3 },
         { title: "سورة النــساء ", id: 4 },
         { title: "سورة المائــدة ", id: 5 },
         { title: "سورة الأنعــام ", id: 6 },
+		{ title: "سورة الأعراف ", id: 7 },
 		{ title: "سورة الأنفال ", id: 8 },
         { title: "سورة التوبة ", id: 9 },
         { title: "سورة يونس ", id: 10 },
@@ -280,7 +282,6 @@ angular
         { title: "سورة إبراهيم ", id: 14 },
         { title: "سورة الحجر ", id: 15 },
         { title: "سورة النحل ", id: 16 },
-        { title: "سورة يوسف ", id: 11 },
         { title: "سورة الاسراء ", id: 17 },
         { title: "سورة الكهف ", id: 18 },
         { title: "سورة مريم ", id: 19 },
