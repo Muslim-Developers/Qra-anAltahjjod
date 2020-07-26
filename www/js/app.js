@@ -355,6 +355,598 @@ angular
             templateUrl: "templates/35.html",
           },
         },
+      })
+      .state("app.41", {
+        url: "/41",
+        views: {
+          menuContent: {
+            templateUrl: "templates/41.html",
+          },
+        },
+      })
+      .state("app.42", {
+        url: "/42",
+        views: {
+          menuContent: {
+            templateUrl: "templates/42.html",
+          },
+        },
+      })
+      .state("app.43", {
+        url: "/43",
+        views: {
+          menuContent: {
+            templateUrl: "templates/43.html",
+          },
+        },
+      })
+      .state("app.44", {
+        url: "/44",
+        views: {
+          menuContent: {
+            templateUrl: "templates/44.html",
+          },
+        },
+      })
+      .state("app.45", {
+        url: "/45",
+        views: {
+          menuContent: {
+            templateUrl: "templates/45.html",
+          },
+        },
+      })
+      .state("app.46", {
+        url: "/46",
+        views: {
+          menuContent: {
+            templateUrl: "templates/46.html",
+          },
+        },
+      })
+      .state("app.47", {
+        url: "/47",
+        views: {
+          menuContent: {
+            templateUrl: "templates/47.html",
+          },
+        },
+      })
+      .state("app.48", {
+        url: "/48",
+        views: {
+          menuContent: {
+            templateUrl: "templates/48.html",
+          },
+        },
+      })
+      .state("app.49", {
+        url: "/49",
+        views: {
+          menuContent: {
+            templateUrl: "templates/49.html",
+          },
+        },
+      })
+      .state("app.50", {
+        url: "/50",
+        views: {
+          menuContent: {
+            templateUrl: "templates/50.html",
+          },
+        },
+      })
+      .state("app.51", {
+        url: "/51",
+        views: {
+          menuContent: {
+            templateUrl: "templates/51.html",
+          },
+        },
+      })
+      .state("app.52", {
+        url: "/52",
+        views: {
+          menuContent: {
+            templateUrl: "templates/52.html",
+          },
+        },
+      })
+      .state("app.53", {
+        url: "/53",
+        views: {
+          menuContent: {
+            templateUrl: "templates/53.html",
+          },
+        },
+      })
+      .state("app.54", {
+        url: "/54",
+        views: {
+          menuContent: {
+            templateUrl: "templates/54.html",
+          },
+        },
+      })
+      .state("app.55", {
+        url: "/55",
+        views: {
+          menuContent: {
+            templateUrl: "templates/55.html",
+          },
+        },
+      })
+      .state("app.56", {
+        url: "/56",
+        views: {
+          menuContent: {
+            templateUrl: "templates/56.html",
+          },
+        },
+      })
+      .state("app.57", {
+        url: "/57",
+        views: {
+          menuContent: {
+            templateUrl: "templates/57.html",
+          },
+        },
+      })
+      .state("app.58", {
+        url: "/58",
+        views: {
+          menuContent: {
+            templateUrl: "templates/58.html",
+          },
+        },
+      })
+      .state("app.59", {
+        url: "/59",
+        views: {
+          menuContent: {
+            templateUrl: "templates/59.html",
+          },
+        },
+      })
+      .state("app.60", {
+        url: "/60",
+        views: {
+          menuContent: {
+            templateUrl: "templates/60.html",
+          },
+        },
+      })
+      .state("app.61", {
+        url: "/61",
+        views: {
+          menuContent: {
+            templateUrl: "templates/61.html",
+          },
+        },
+      })
+      .state("app.62", {
+        url: "/62",
+        views: {
+          menuContent: {
+            templateUrl: "templates/62.html",
+          },
+        },
+      })
+      .state("app.63", {
+        url: "/63",
+        views: {
+          menuContent: {
+            templateUrl: "templates/63.html",
+          },
+        },
+      })
+      .state("app.64", {
+        url: "/64",
+        views: {
+          menuContent: {
+            templateUrl: "templates/64.html",
+          },
+        },
+      })
+      .state("app.65", {
+        url: "/65",
+        views: {
+          menuContent: {
+            templateUrl: "templates/65.html",
+          },
+        },
+      })
+      .state("app.66", {
+        url: "/66",
+        views: {
+          menuContent: {
+            templateUrl: "templates/66.html",
+          },
+        },
+      })
+      .state("app.67", {
+        url: "/67",
+        views: {
+          menuContent: {
+            templateUrl: "templates/67.html",
+          },
+        },
+      })
+      .state("app.68", {
+        url: "/68",
+        views: {
+          menuContent: {
+            templateUrl: "templates/68.html",
+          },
+        },
+      })
+      .state("app.69", {
+        url: "/69",
+        views: {
+          menuContent: {
+            templateUrl: "templates/69.html",
+          },
+        },
+      })
+      .state("app.70", {
+        url: "/70",
+        views: {
+          menuContent: {
+            templateUrl: "templates/70.html",
+          },
+        },
+      })
+      .state("app.71", {
+        url: "/71",
+        views: {
+          menuContent: {
+            templateUrl: "templates/71.html",
+          },
+        },
+      })
+      .state("app.72", {
+        url: "/72",
+        views: {
+          menuContent: {
+            templateUrl: "templates/72.html",
+          },
+        },
+      })
+      .state("app.73", {
+        url: "/73",
+        views: {
+          menuContent: {
+            templateUrl: "templates/73.html",
+          },
+        },
+      })
+      .state("app.74", {
+        url: "/74",
+        views: {
+          menuContent: {
+            templateUrl: "templates/74.html",
+          },
+        },
+      })
+      .state("app.75", {
+        url: "/75",
+        views: {
+          menuContent: {
+            templateUrl: "templates/75.html",
+          },
+        },
+      })
+      .state("app.76", {
+        url: "/76",
+        views: {
+          menuContent: {
+            templateUrl: "templates/76.html",
+          },
+        },
+      })
+      .state("app.77", {
+        url: "/77",
+        views: {
+          menuContent: {
+            templateUrl: "templates/77.html",
+          },
+        },
+      })
+      .state("app.78", {
+        url: "/78",
+        views: {
+          menuContent: {
+            templateUrl: "templates/78.html",
+          },
+        },
+      })
+      .state("app.79", {
+        url: "/79",
+        views: {
+          menuContent: {
+            templateUrl: "templates/79.html",
+          },
+        },
+      })
+      .state("app.80", {
+        url: "/80",
+        views: {
+          menuContent: {
+            templateUrl: "templates/80.html",
+          },
+        },
+      })
+      .state("app.81", {
+        url: "/81",
+        views: {
+          menuContent: {
+            templateUrl: "templates/81.html",
+          },
+        },
+      })
+      .state("app.82", {
+        url: "/82",
+        views: {
+          menuContent: {
+            templateUrl: "templates/82.html",
+          },
+        },
+      })
+      .state("app.83", {
+        url: "/83",
+        views: {
+          menuContent: {
+            templateUrl: "templates/83.html",
+          },
+        },
+      })
+      .state("app.84", {
+        url: "/84",
+        views: {
+          menuContent: {
+            templateUrl: "templates/84.html",
+          },
+        },
+      })
+      .state("app.85", {
+        url: "/85",
+        views: {
+          menuContent: {
+            templateUrl: "templates/85.html",
+          },
+        },
+      })
+      .state("app.86", {
+        url: "/86",
+        views: {
+          menuContent: {
+            templateUrl: "templates/86.html",
+          },
+        },
+      })
+      .state("app.87", {
+        url: "/87",
+        views: {
+          menuContent: {
+            templateUrl: "templates/87.html",
+          },
+        },
+      })
+      .state("app.88", {
+        url: "/88",
+        views: {
+          menuContent: {
+            templateUrl: "templates/88.html",
+          },
+        },
+      })
+      .state("app.89", {
+        url: "/89",
+        views: {
+          menuContent: {
+            templateUrl: "templates/89.html",
+          },
+        },
+      })
+      .state("app.90", {
+        url: "/90",
+        views: {
+          menuContent: {
+            templateUrl: "templates/90.html",
+          },
+        },
+      })
+      .state("app.91", {
+        url: "/91",
+        views: {
+          menuContent: {
+            templateUrl: "templates/91.html",
+          },
+        },
+      })
+      .state("app.92", {
+        url: "/92",
+        views: {
+          menuContent: {
+            templateUrl: "templates/92.html",
+          },
+        },
+      })
+      .state("app.93", {
+        url: "/93",
+        views: {
+          menuContent: {
+            templateUrl: "templates/93.html",
+          },
+        },
+      })
+      .state("app.94", {
+        url: "/94",
+        views: {
+          menuContent: {
+            templateUrl: "templates/94.html",
+          },
+        },
+      })
+      .state("app.95", {
+        url: "/95",
+        views: {
+          menuContent: {
+            templateUrl: "templates/95.html",
+          },
+        },
+      })
+      .state("app.96", {
+        url: "/96",
+        views: {
+          menuContent: {
+            templateUrl: "templates/96.html",
+          },
+        },
+      })
+      .state("app.97", {
+        url: "/97",
+        views: {
+          menuContent: {
+            templateUrl: "templates/97.html",
+          },
+        },
+      })
+      .state("app.98", {
+        url: "/98",
+        views: {
+          menuContent: {
+            templateUrl: "templates/98.html",
+          },
+        },
+      })
+      .state("app.99", {
+        url: "/99",
+        views: {
+          menuContent: {
+            templateUrl: "templates/99.html",
+          },
+        },
+      })
+      .state("app.100", {
+        url: "/100",
+        views: {
+          menuContent: {
+            templateUrl: "templates/100.html",
+          },
+        },
+      })
+      .state("app.101", {
+        url: "/101",
+        views: {
+          menuContent: {
+            templateUrl: "templates/101.html",
+          },
+        },
+      })
+      .state("app.102", {
+        url: "/102",
+        views: {
+          menuContent: {
+            templateUrl: "templates/102.html",
+          },
+        },
+      })
+      .state("app.103", {
+        url: "/103",
+        views: {
+          menuContent: {
+            templateUrl: "templates/103.html",
+          },
+        },
+      })
+      .state("app.104", {
+        url: "/104",
+        views: {
+          menuContent: {
+            templateUrl: "templates/104.html",
+          },
+        },
+      })
+      .state("app.105", {
+        url: "/105",
+        views: {
+          menuContent: {
+            templateUrl: "templates/105.html",
+          },
+        },
+      })
+      .state("app.106", {
+        url: "/106",
+        views: {
+          menuContent: {
+            templateUrl: "templates/106.html",
+          },
+        },
+      })
+      .state("app.107", {
+        url: "/107",
+        views: {
+          menuContent: {
+            templateUrl: "templates/107.html",
+          },
+        },
+      })
+      .state("app.108", {
+        url: "/108",
+        views: {
+          menuContent: {
+            templateUrl: "templates/108.html",
+          },
+        },
+      })
+      .state("app.109", {
+        url: "/109",
+        views: {
+          menuContent: {
+            templateUrl: "templates/109.html",
+          },
+        },
+      })
+      .state("app.110", {
+        url: "/110",
+        views: {
+          menuContent: {
+            templateUrl: "templates/110.html",
+          },
+        },
+      })
+      .state("app.111", {
+        url: "/111",
+        views: {
+          menuContent: {
+            templateUrl: "templates/111.html",
+          },
+        },
+      })
+      .state("app.112", {
+        url: "/112",
+        views: {
+          menuContent: {
+            templateUrl: "templates/112.html",
+          },
+        },
+      })
+      .state("app.113", {
+        url: "/113",
+        views: {
+          menuContent: {
+            templateUrl: "templates/113.html",
+          },
+        },
+      })
+      .state("app.114", {
+        url: "/114",
+        views: {
+          menuContent: {
+            templateUrl: "templates/114.html",
+          },
+        },
       });
     $urlRouterProvider.otherwise("/app/playlists");
   });
