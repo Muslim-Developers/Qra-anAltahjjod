@@ -104,12 +104,85 @@ angular
           },
         },
       })
+
+      .state("app.8", {
+        url: "/8",
+        views: {
+          menuContent: {
+            templateUrl: "templates/8.html",
+          },
+        },
+      })
+
+      .state("app.9", {
+        url: "/9",
+        views: {
+          menuContent: {
+            templateUrl: "templates/9.html",
+          },
+        },
+      })
+
+      .state("app.10", {
+        url: "/10",
+        views: {
+          menuContent: {
+            templateUrl: "templates/10.html",
+          },
+        },
+      })
+
       .state("app.11", {
         url: "/11",
         views: {
           menuContent: {
             templateUrl: "templates/11.html",
             controller: "The11Ctrl",
+          },
+        },
+      })
+
+      .state("app.12", {
+        url: "/12",
+        views: {
+          menuContent: {
+            templateUrl: "templates/12.html",
+          },
+        },
+      })
+
+      .state("app.13", {
+        url: "/13",
+        views: {
+          menuContent: {
+            templateUrl: "templates/13.html",
+          },
+        },
+      })
+
+      .state("app.14", {
+        url: "/14",
+        views: {
+          menuContent: {
+            templateUrl: "templates/14.html",
+          },
+        },
+      })
+
+      .state("app.15", {
+        url: "/15",
+        views: {
+          menuContent: {
+            templateUrl: "templates/15.html",
+          },
+        },
+      })
+
+      .state("app.16", {
+        url: "/16",
+        views: {
+          menuContent: {
+            templateUrl: "templates/16.html",
           },
         },
       })
@@ -226,6 +299,60 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/29.html",
+          },
+        },
+      })
+
+      .state("app.30", {
+        url: "/30",
+        views: {
+          menuContent: {
+            templateUrl: "templates/30.html",
+          },
+        },
+      })
+
+      .state("app.31", {
+        url: "/31",
+        views: {
+          menuContent: {
+            templateUrl: "templates/31.html",
+          },
+        },
+      })
+
+      .state("app.32", {
+        url: "/32",
+        views: {
+          menuContent: {
+            templateUrl: "templates/32.html",
+          },
+        },
+      })
+
+      .state("app.33", {
+        url: "/33",
+        views: {
+          menuContent: {
+            templateUrl: "templates/33.html",
+          },
+        },
+      })
+
+      .state("app.34", {
+        url: "/34",
+        views: {
+          menuContent: {
+            templateUrl: "templates/34.html",
+          },
+        },
+      })
+
+      .state("app.35", {
+        url: "/35",
+        views: {
+          menuContent: {
+            templateUrl: "templates/35.html",
           },
         },
       })
