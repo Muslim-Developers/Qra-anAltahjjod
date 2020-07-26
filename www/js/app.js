@@ -796,6 +796,14 @@ angular
             templateUrl: "templates/111.html",
           },
         },
+      })
+      .state("app.112", {
+        url: "/112",
+        views: {
+          menuContent: {
+            templateUrl: "templates/112.html",
+          },
+        },
       });
     $urlRouterProvider.otherwise("/app/playlists");
   });
