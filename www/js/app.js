@@ -375,6 +375,52 @@ angular
           },
         },
       })
+	  
+      .state("app.36", {
+        url: "/36",
+        views: {
+          menuContent: {
+            templateUrl: "templates/36.html",
+          },
+        },
+      })
+      
+      .state("app.37", {
+        url: "/37",
+        views: {
+          menuContent: {
+            templateUrl: "templates/37.html",
+          },
+        },
+      })
+      
+      .state("app.38", {
+        url: "/38",
+        views: {
+          menuContent: {
+            templateUrl: "templates/38.html",
+          },
+        },
+      })
+      
+      .state("app.39", {
+        url: "/39",
+        views: {
+          menuContent: {
+            templateUrl: "templates/39.html",
+          },
+        },
+      })
+      
+      .state("app.40", {
+        url: "/40",
+        views: {
+          menuContent: {
+            templateUrl: "templates/40.html",
+          },
+        },
+      })
+	  
       .state("app.41", {
         url: "/41",
         views: {
