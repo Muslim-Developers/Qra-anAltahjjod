@@ -46,6 +46,16 @@ angular
           },
         },
       })
+	  
+      .state("app.1", {
+        url: "/1",
+        views: {
+          menuContent: {
+            templateUrl: "templates/1.html",
+          },
+        },
+      })
+	  
       .state("app.2", {
         url: "/2",
         views: {
@@ -101,6 +111,15 @@ angular
           menuContent: {
             templateUrl: "templates/6.html",
             controller: "The6Ctrl",
+          },
+        },
+      })
+	  
+      .state("app.7", {
+        url: "/7",
+        views: {
+          menuContent: {
+            templateUrl: "templates/7.html",
           },
         },
       })
