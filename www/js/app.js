@@ -47,11 +47,22 @@ angular
         },
       })
 	  
+
+      .state("app.modal", {
+        url: "/modal",
+        views: {
+          menuContent: {
+            templateUrl: "templates/modal.html",
+          },
+        },
+      })
+    
       .state("app.1", {
         url: "/1",
         views: {
           menuContent: {
             templateUrl: "templates/1.html",
+              controller: "The1Ctrl",
           },
         },
       })
@@ -61,6 +72,7 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/2.html",
+              controller: "The2Ctrl",
           },
         },
       })
@@ -70,17 +82,7 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/3.html",
-            controller: "The3Ctrl",
-          },
-        },
-      })
-
-      .state("app.modal", {
-        url: "/modal",
-        views: {
-          menuContent: {
-            templateUrl: "templates/modal.html",
-            controller: "The3Ctrl",
+              controller: "The3Ctrl",
           },
         },
       })
@@ -90,7 +92,7 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/4.html",
-            controller: "The4Ctrl",
+              controller: "The4Ctrl",
           },
         },
       })
@@ -100,7 +102,6 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/5.html",
-            controller: "The5Ctrl",
           },
         },
       })
@@ -110,7 +111,6 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/6.html",
-            controller: "The6Ctrl",
           },
         },
       })
@@ -156,7 +156,6 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/11.html",
-            controller: "The11Ctrl",
           },
         },
       })
@@ -211,7 +210,6 @@ angular
         views: {
           menuContent: {
             templateUrl: "templates/17.html",
-            controller: "The17Ctrl",
           },
         },
       })
