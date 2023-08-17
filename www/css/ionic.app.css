@@ -3098,7 +3098,8 @@ a {
  */
 b,
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /**
  * Address styling not present in Safari 5 and Chrome.
