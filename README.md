@@ -1,3 +1,10 @@
+# How migration done ?
+__python scripts in src/lib/generators,__
+
+__make sure to run them by double-clicking on it.__
+
+
+
 # Qra-anAltahjjod
 ![Node.js CI](https://github.com/enghamzasalem/Qra-anAltahjjod/workflows/Node.js%20CI/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fc76c340-b25a-47ad-896e-4aec5ea64c0e/deploy-status)](https://naughty-kirch-7e1b00.netlify.com)

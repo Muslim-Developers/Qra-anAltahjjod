@@ -1,0 +1,195 @@
+:root {
+    --dark-background: #414042;
+    --white: #ddd;
+}
+
+.modal .modal-background {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    background-color: #34343480;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.modal .modal-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 50%;
+    margin: auto;
+    background-color: var(--dark-background);
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px var(--dark-background);
+    height: 45%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.modal .modal-navbar {
+    padding: 5px;
+    color: var(--white);
+    background: #404040;
+    border-bottom: 1px solid #b2b2b2;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+.modal-navbar.real-modal-navbar {
+    position: relative;
+}
+
+.modal .modal-navbar .modal-close {
+    width: 49px;
+    font-weight: bolder;
+    color: var(--white);
+    font-size: 17px;
+    padding: 5px;
+    margin: 0 11px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.modal .modal-navbar .modal-title {
+    width: 49px;
+    font-weight: 600;
+    color: var(--white);
+    font-size: 17px;
+    padding: 5px 0;
+    min-width: 30px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.modal .modal-inner-box {
+    overflow: hidden;
+    margin: 20px 10px;
+    border-radius: 2px;
+    background-color: #fff;
+    padding: 16px;
+}
+
+.modal .binding {
+    overflow: visible;
+    white-space: normal;
+    text-overflow: ellipsis;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.modal h2.binding {
+    margin: 0 0 2px 0;
+    font-size: 16px;
+    font-weight: normal;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+    line-height: 1.2;
+}
+
+.modal #_label-0 {
+    font-size: 32px;
+    color: var(--dark-background);
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+}
+
+.modal #_label-0::before {
+    content: "";
+    display: inline-block;
+    border: 1px solid var(--dark-background);
+    width: 15px;
+    background: var(--dark-background);
+    height: 15px;
+    margin-left: 2%;
+    border-radius: 0 10px 10px 0;
+}
+
+.modal #_label-0::after {
+    content: "";
+    display: inline-block;
+    border: 1px solid var(--dark-background);
+    width: 15px;
+    background: var(--dark-background);
+    height: 15px;
+    margin-right: 2%;
+    border-radius: 10px 0 0 10px;
+}
+
+.modal .modal-notes {
+    display: block;
+    width: 100%;
+    border: 2px solid var(--dark-background);
+    padding: 3% 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    height: 34px;
+    color: #111;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+    font-weight: normal;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    -webkit-font-smoothing: inherit;
+    background-image: none;
+    cursor: text;
+}
+
+.modal .modal-button {
+    background: var(--dark-background);
+    padding: 1%;
+    color: #fcfcfc;
+    max-width: 35%;
+    margin: auto;
+    font-size: 24px;
+    border-radius: 10px;
+    border-color: transparent;
+    width: 100%;
+    display: block;
+    border-right-width: 0;
+    border-left-width: 0;
+    position: relative;
+    min-width: 52px;
+    min-height: 47px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    text-overflow: ellipsis;
+    line-height: 42px;
+    cursor: pointer;
+    font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+    font-weight: normal;
+}
+
+.modal .modal-button:hover {
+    background: none;
+    color: var(--dark-background);
+    box-shadow: 5px 5px 8px var(--dark-background);
+}
