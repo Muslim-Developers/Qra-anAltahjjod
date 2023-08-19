@@ -1,0 +1,29 @@
+sub .list {
+    min-height: calc(100vh - 44px);
+    border-right: 1px solid #ddd;
+  }
+  
+  sub {
+    width: 275px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 100vh;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 1;
+    background-color: #fff;
+  }
+
+  sub nav {
+    border-right: 1px solid #686868;
+}
+
+sub .float-nav {
+    width: 44px;
+}
+
+sub div {
+    text-align: justify;
+    direction: rtl;
+}

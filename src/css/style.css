@@ -1,0 +1,87 @@
+/* Empty. Add your own CSS if you like */
+center h2 {
+  background-color: #738494;
+  color: #ddd;
+}
+
+b {
+  vertical-align: baseline;
+  font: inherit;
+  color: black;
+  word-spacing: 15%;
+  line-height: 3;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 10px 0;
+  font-weight: normal;
+  font-family: 'Cairo';
+  font-size: 14px;
+}
+
+* {
+  font-family: "Cairo", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+  cursor: default;
+  direction: rtl;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  font-weight: 500;
+  font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  line-height: 1.2;
+}
+
+.stop-scroll {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.surah-container {
+  min-height: calc(100vh - 44px);
+  background: #fff;
+}
+
+/* -- Scroll bar style -- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: none;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #686868;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #686868; 
+}

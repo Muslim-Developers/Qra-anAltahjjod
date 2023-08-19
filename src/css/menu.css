@@ -1,0 +1,96 @@
+:root {
+    --white: #ddd
+}
+
+nav p, nav i {
+    color: var(--white);
+}
+
+.float-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.float-nav .containerr {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.edge {
+    min-width: 50px;
+}
+
+.edge .fa-solid.fa-bars {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.back-nav-button {
+    font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+    font-weight: 400;
+    width: 90px;
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.back-nav-button i {
+    font-size: 21px;
+}
+
+
+
+nav {
+    background-color: #404040;
+    color: var(--white);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    height: 44px;
+    border-width: 0;
+    border-style: solid;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid var(--white);
+    background-size: 0;
+}
+
+nav div {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+    margin: 0 10px;
+    min-width: 30px;
+    height: 43px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 44px;
+}
