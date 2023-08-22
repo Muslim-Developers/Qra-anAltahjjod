@@ -2,12 +2,17 @@
 
 This is a migrated svelte project from the [Qra-anAltahjjod](https://github.com/Muslim-Developers/Qra-anAltahjjod) project which was build by Ionic framework version 1
 
+
 ## Table of Contents
 
+- [Data Migration](#data-migration)
 - [Live Demo](#live-demo)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Contributing](#contributing)
+
+## Data migration
+Data migration was doe by python & nodejs scripts which are found in [here](./data-mig-scripts/)
 
 ## Live Demo
 
